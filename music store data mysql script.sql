@@ -137,4 +137,4 @@ join customer on customer.customer_id = invoice.customer_id
 group by 1,2,3,4
 order by 4 asc, 5 desc
 )
-select * from customer_with_country where row_no <= 1;
+select * from customer_with_country where row_no <= 1; 
